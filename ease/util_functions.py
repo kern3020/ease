@@ -269,7 +269,7 @@ class InputError(Error):
 def gen_cv_preds(clf, arr, sel_score, num_chunks=3):
     """
     Generates cross validated predictions using an input classifier and data.
-    clf is a classifier that implements that implements the fit and predict methods.
+    clf is a classifier that implements the fit and predict methods.
     arr is the input data array (X)
     sel_score is the target list (y).  y[n] corresponds to X[n,:]
     num_chunks is the number of cross validation folds to use
